@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    background-color: #282f33;
+    color: white;
+}
+
+#heading {
+    text-align: center;
+}
+
+hr {
+    margin-inline-start: 15%;
+    margin-inline-end: 15%;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav {
+    margin-left: 20%;
+    text-decoration: none;
+}
+
+nav a {
+    margin-left: 25px;
+}
+
+main {
+    padding-left: 25%;
+}
+
+main div {
+    display: flex;
+}
+
+main span h1 {
+    width: 10rem;
+    background-color: #fff;
+    color: rgb(239, 186, 54);
+    border-radius: 5px;
+    padding: 3rem;
+}
+
+main div h3 {
+    width: 25rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-left: 2%;
+    padding: 7%;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+form {
+    color: #fff;
+    width: 50rem;
+    margin-left: 25%;
+    padding: 4%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.donation-forms label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.donation-forms input[type="text"],
+.donation-forms input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #008cba;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+section div div {
+    margin: 1%;
+    padding: 0.7rem;
+    background-color: whitesmoke;
+    font-size: 2rem;
+    border-radius: 5%;
+}
+
+section div div h2,
+p {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}

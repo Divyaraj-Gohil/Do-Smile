@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="heading">Do & Smile</h1>
+    <hr>
+    <nav>
+        <span><a href="index.html" target="_blank">About</a></span>
+        <span><a href="donate.html" target="_blank">Donate</a></span>
+        <span><a href="request.html" target="_blank">Request</a></span>
+    </nav>
+    <form action="index.html" style="margin-top: 3rem;">
+        <label for="Name">Organization Name:</label>
+        <input type="text" id="Name" name="firstName" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="contactDetails">Contact Details (Phone number):</label>
+        <input type="tel" id="contactDetails" name="contactDetails" required><br><br>
+
+        <label for="add">Location:</label>
+        <textarea id="address" name="add" rows="4" cols="50" required></textarea><br><br>
+
+        <h2>Request Type:</h2>
+
+        <label for="financialDonation">Financial:</label>
+        <input type="radio" id="financial" name="donationType" value="financial">
+        <label for="householdDonation">Household:</label>
+        <input type="radio" id="householdDonation" name="donationType" value="household">
+        <label for="householdDonation">Food:</label>
+        <input type="radio" id="householdDonation" name="donationType" value="household">
+        <br><br>
+
+        <h2>Types of Items (select multiple if applicable):</h2>
+        <select id="itemType" name="itemType">
+            <option value="">-- Select Item (if household items) --</option>
+            <option value="toys">Toys</option>
+            <option value="books">Books</option>
+            <option value="clothes">Clothes</option>
+            <option value="furniture">Furniture</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <footer>
+        <h4>&copy; Do & Smile 2024</h4>
+    </footer>
+
+</body>
+
+</html>
